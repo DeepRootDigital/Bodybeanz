@@ -1,128 +1,197 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+
 * {
 
 }
 
-p {
-	font-family: arial;
-	font-size: 17px;
-	color: #424d3d;
-	line-height: 25px;
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.full-background-section {
+	position: relative;
+	width: 100%;
+	height: 685px;
+	background-image: url('images/top-section-background.png');
+	background-repeat: repeat-x;
 }
 
 .container {
-	width:960px;
-	max-width:960px;
-	margin-left:auto;
-	margin-right:auto;
-	border-left:1px solid #000;
-	border-right:1px solid #000;
+	height: 7600px;
+    margin: 0 auto;
+    position: relative;
+    top: -686px;
+    width: 960px;
 }
 
-.page-divider {
-	width:100%;
-	background-image:url('images/divider-shadow.png');
-	background-repeat: no-repeat;
+.top-section {
+	margin: 50px 0 0 0;
+	top: 50px;
+	width: 960px;
+	height: 740px;
+}
+
+.beanz-bag-pills {
 	position: absolute;
-	margin-left: -171px;
+	margin: 0 0 0 -107px;
 }
 
-.page-divider img {
-	margin-left:186px;
-	margin-top: 18px;
+.heres-how {
+    float: right;
+    height: 165px;
+    width: 728px;
 }
 
-.panel-4 {
-	float:left;
-	width:100%;
-}
-
-.panel-4 h1 {
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+.heres-how p {
+	margin: 0;
+	text-align: right;
+	color: #414c3c;
+	font-size: 30px;
 	text-transform: uppercase;
-	font-weight: normal;
-	color:#68a837;
-	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.panel-4 .panel-headline {
-	max-width: 565px;
-	margin-left: auto;
-	margin-top:65px;
-	margin-right: auto;
+.heres-how p span {
+	font-size: 35px;
+	color: #ef5f25;
+}
+
+.heres-how p span span {
+	color: #609b32;
+}
+
+.header-sketch-font {
+	margin: 10px 0 0 14px;
+}
+
+.header-text-bottom-border {
+	margin: 25px 0 0 -230px;
+}
+
+.bullet-video-section {
+    float: right;
+    height: 220px;
+    margin: 50px 0 0;
+    width: 685px;
+}
+
+.head-bullet-list {
+	margin: 0 0 0 0;
+}
+
+.video {
+	float: right;
+	margin: 0 0 0 0;
+}
+
+.get-started {
+    height: 70px;
+    left: 730px;
+    position: relative;
+    top: 460px;
+    width: 230px;
+}
+
+.get-started p {
+	margin: 0 0 0 0;
 	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	color: #404b3c;
+	font-size: 20px;
 }
 
-.ingredient-left, .ingredient-right {
-	width:100%;
-	float:left;
-	max-height:244px;
+.get-started p + p {
+	color: #ed5f25;
+	font-size: 25px;
 }
 
-.ingredient-left hr {
-	border: none;
-	background-image:url('images/dot.png');
-	height:4px;
-	width:630px;
-	margin-left:270px;
-	margin-top:-64px;
+.get-started-images {
+	margin: -55px 0 0 54px;
 }
 
-.ingredient-right hr {
-	position: absolute;
-	border: none;
-	background-image:url('images/dot.png');
-	height:4px;
-	width:630px;
-	margin-top:224px;
+.read-on {
+    float: right;
+    height: 60px;
+    margin: 225px 0 0;
+    width: 515px;
 }
 
-.ingredient-left img {
-	margin-left:-80px;
+.read-on p {
+	color: #424D3D;
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    text-align: right;
+}
+
+.read-on p span {
+	color: #e36e20;
+}
+
+.what-they-dont-want-you-to-know {
+	width: 960px;
+	height: 1000px;
+	position: relative;
+}
+
+.second-section-ribbon {
+	float: right;
+}
+
+.second-section-intro {
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    width: 820px;
+}
+
+.second-section-intro p {
+	color: #69A937;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -60px;
+}
+
+.second-section-sketchtesxt {
+	display: block;
+    margin: -80px auto;
+}
+
+.second-section-about {
+	margin: 160px 0 0 0;
+	font-family: arial;
+	color: #424d3d;
+	line-height: 22px;
 }
 
 
-.ingredient-right img {
-	float:right;
-	margin-right:-80px;
-}
 
-#camu {
-	position: absolute;
-	margin-left: 270px;
-	margin-top: -140px;
-}
 
-#fenugreek {
-	position: absolute;
-	margin-top: 145px;
-	margin-left: 125px;
-}
 
-#gynema-herb {
-	position: absolute;
-	margin-left: 270px;
-	margin-top: -140px;
-}
 
-#alma {
-	position: absolute;
-	margin-top: 145px;
-	margin-left: 85px;
-}
 
-.pill-bookend {
-	width:100%;
-	float:left;
-	margin-top:180px;
-}
 
-.ribbon-divider {
-	margin-left:11px;
-}
 
-#bookend {
-	position: absolute;
-	margin-left: 520px;
-	margin-top: -222px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
