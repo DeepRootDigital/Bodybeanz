@@ -1,3 +1,128 @@
 * {
 
 }
+
+p {
+	font-family: arial;
+	font-size: 17px;
+	color: #424d3d;
+	line-height: 25px;
+}
+
+.container {
+	width:960px;
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+}
+
+.page-divider {
+	width:100%;
+	background-image:url('images/divider-shadow.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-left: -171px;
+}
+
+.page-divider img {
+	margin-left:186px;
+	margin-top: 18px;
+}
+
+.panel-4 {
+	float:left;
+	width:100%;
+}
+
+.panel-4 h1 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	color:#68a837;
+	line-height: 30px;
+}
+
+.panel-4 .panel-headline {
+	max-width: 565px;
+	margin-left: auto;
+	margin-top:65px;
+	margin-right: auto;
+	text-align: center;
+}
+
+.ingredient-left, .ingredient-right {
+	width:100%;
+	float:left;
+	max-height:244px;
+}
+
+.ingredient-left hr {
+	border: none;
+	background-image:url('images/dot.png');
+	height:4px;
+	width:630px;
+	margin-left:270px;
+	margin-top:-64px;
+}
+
+.ingredient-right hr {
+	position: absolute;
+	border: none;
+	background-image:url('images/dot.png');
+	height:4px;
+	width:630px;
+	margin-top:224px;
+}
+
+.ingredient-left img {
+	margin-left:-80px;
+}
+
+
+.ingredient-right img {
+	float:right;
+	margin-right:-80px;
+}
+
+#camu {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -140px;
+}
+
+#fenugreek {
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 125px;
+}
+
+#gynema-herb {
+	position: absolute;
+	margin-left: 270px;
+	margin-top: -140px;
+}
+
+#alma {
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 85px;
+}
+
+.pill-bookend {
+	width:100%;
+	float:left;
+	margin-top:180px;
+}
+
+.ribbon-divider {
+	margin-left:11px;
+}
+
+#bookend {
+	position: absolute;
+	margin-left: 520px;
+	margin-top: -222px;
+}
