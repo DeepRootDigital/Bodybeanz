@@ -176,6 +176,10 @@ p, ul {
 	max-width:465px;
 }
 
+.moniker-left b {
+	color:#ee7526;
+}
+
 .moniker img {
 	float:right;
 }
