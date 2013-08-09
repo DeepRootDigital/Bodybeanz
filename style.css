@@ -165,11 +165,285 @@ body {
 }
 
 .second-section-about {
-	margin: 160px 0 0 0;
+	margin: 130px 0 0 0;
 	font-family: arial;
 	color: #424d3d;
-	line-height: 22px;
+	line-height: 25px;
 }
+
+.second-section-lists {
+	height: 430px;
+    margin: 54px 0 0;
+    position: relative;
+    width: 960px;
+    z-index: 9;
+}
+
+.left-list {
+	background-image: url('images/left-list-background.png');
+	background-repeat: no-repeat;
+	width: 440px;
+	height: auto;
+	float: left;
+	margin: 0 36px 0 0;
+}
+
+.list-intro {
+	color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 2px 0 0 16px;
+    width: 360px;
+}
+
+.list-style ul {
+	list-style-type: none;
+    position: relative;
+    top: 10px;
+    left: -30px;
+}
+.list-style ul li {
+	background-image: url("images/top-list-bullet.png");
+    background-position: 0 6px;
+    background-repeat: no-repeat;
+    margin: 15px 0 0;
+    padding: 0 0 0 25px;
+    color: #424d3d;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.second-section-bottom-info {
+	margin: 44px 0 0 10px;
+	color: #424d3d;
+	font-size: 17px;
+	font-family: arial;
+}
+
+.second-section-bottom-info span {
+	color: #72b63e;
+}
+
+.second-section-list-divider {
+	position: relative;
+	float: left;
+}
+
+.right-list {
+	background-image: url('images/right-list-background.png');
+	background-repeat: no-repeat;
+	width: 440px;
+	height: 430px;
+	float: left;
+	margin: 0 0 0 40px;
+}
+
+.second-section-gradient {
+    left: -161px;
+    position: relative;
+    top: -421px;
+}
+
+.leafs {
+	left: 580px;
+    position: relative;
+    top: -655px;
+    width: 28%;
+}
+
+.happy-body {
+	width: 960px;
+	height: 1050px;
+	float: left;
+}
+
+.third-section-intro {
+    height: 110px;
+    margin: 0 auto;
+    width: 690px;
+}
+
+.third-section-intro p {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 36px;
+	color: #68a837;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+}
+
+.intro-text {
+	display: block;
+    margin: 20px auto;
+}
+
+.third-section-image {
+	background-image: url("images/third-section-image.png");
+    background-repeat: no-repeat;
+    height: 671px;
+    margin: 50px 0 0 -301px;
+    width: 497px;
+}
+
+.do-you-exercise {
+    height: 145px;
+    left: 224px;
+    position: relative;
+    top: -669px;
+    width: 600px;
+}
+
+.do-you-exercise p {
+	margin: 0 0 0 0;
+	color: #424d3d;
+	font-size: 15px;
+	font-family: arial;
+	line-height: 24px;
+	text-transform: none;
+}
+
+.do-you-exercise p + p {
+	margin: 25px 0 0 0;
+}
+
+.bean-types {
+    height: 440px;
+    left: 209px;
+    position: relative;
+    top: -660px;
+    width: 615px;
+}
+
+.beanz {
+	margin: 10px 0 0 0;
+	background-image: url("images/beanz-list-background.png");
+    background-repeat: no-repeat;
+    height: auto;
+    min-height: 110px;
+    padding: 1px 0 0;
+    width: 100%;
+}
+
+.beanz p span {
+	font-size: 21px;
+	font-weight: bold;
+	color: #434d3d;
+}
+
+.beanz p {
+	text-transform: none;
+	font-size: 17px;
+	color: #ec6f22;
+	margin: 5px 0 0 20px;
+	font-family: arial;
+}
+
+.third-section-list-divider {
+	margin: 30px 0 0 20px;
+}
+
+.the-result {
+    height: 140px;
+    left: -136px;
+    position: relative;
+    top: -590px;
+    width: 960px;
+}
+
+.the-result p {
+	margin: 0 0 30px 0;
+	font-size: 17px;
+	font-family: arial;
+	color: #424d3d;
+	text-transform: none;
+}
+
+.section-three-gradient {
+	background-image: url("images/section-four-gradient.png");
+    background-repeat: no-repeat;
+    height: 757px;
+    margin: 685px 0 0 -180px;
+    width: 1300px;
+}
+
+.why-better {
+	width: 960px;
+	height: 900px;
+	float: left;
+}
+
+.fourth-section-top-ribbon {
+	float: right;
+}
+
+.fourth-section-intro {
+	display: block;
+	margin: 70px auto;
+	width: 660px;
+	height: 145px;
+}
+
+.fourth-section-intro p {
+	margin: 0 0 0 0;
+	font-size: 17px;
+	font-family: arial;
+	color: #424d3d;
+}
+
+.fourth-section-list {
+	margin: 0 0 0 75px;
+}
+
+.fourth-section-side-info {
+    height: 260px;
+    margin: 90px 0 0;
+    width: 375px;
+}
+
+.fourth-section-side-info p {
+	margin: 0 0 20px 0;
+	font-size: 17px;
+	font-family: arial;
+	color: #424d3d;
+}
+
+.fourth-section-family {
+	left: 358px;
+    position: relative;
+    top: -341px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
