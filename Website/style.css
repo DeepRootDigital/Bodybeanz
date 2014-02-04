@@ -18,7 +18,7 @@ body {
 }
 
 b, strong {
-text-transform:uppercase;
+    text-transform:uppercase;
 }
 
 script {
@@ -67,9 +67,9 @@ a {
 }
 
 .pill-image {
-position:absolute;
-left:0px;
-top:192px;
+    position:absolute;
+    left:0px;
+    top:192px;
 }
 
 .fb_edge_widget_with_comment {
@@ -106,7 +106,7 @@ top:192px;
     width:100%;
     background-image:url('images/footer.png');
     background-repeat:repeat;    
-    float:left;
+    padding-top: 10px;
     position:relative;
     z-index:200;
 }
@@ -212,7 +212,7 @@ top:192px;
 }
 
 .alignleft {
-padding-right:10px;
+    padding-right:10px;
     float:left;
 }
 
@@ -268,7 +268,7 @@ padding-right:10px;
 
 .butwhy {
     float:right;
-	margin-top:40px;
+    margin-top:40px;
 }
 
 .sharebutton {
@@ -642,9 +642,8 @@ padding-right:10px;
     max-width:750px;
     width:750px;
     min-height:810px;
-float:left;
-margin-bottom:30px;
-margin-top:40px;
+    margin-bottom:30px;
+    margin-top:40px;
 }
 
 #column {
@@ -1300,7 +1299,7 @@ margin-top:40px;
     display:block;
 }
 #lwt:hover + #wheelcontent1 {
- display:block;
+   display:block;
 }
 
 .unselected {
@@ -1340,14 +1339,14 @@ margin-top:40px;
     margin-left:-23px;
     text-shadow: 1px 0px 0px rgba(150, 150, 150, 1);
     margin-top:-5px;
-	line-height:23px;
+    line-height:23px;
 }
 
 .whlcontent span {
-margin-top:10px;
+    margin-top:10px;
 }
 .whldsply img {
-   margin-left:58px;
+ margin-left:58px;
 }
 
 #buybutton {
@@ -1514,7 +1513,7 @@ margin-top:10px;
 }
 
 .bean-product-content {
-display:none;
+    display:none;
 }
 
 .addtocart {
@@ -1557,9 +1556,6 @@ display:none;
 
 /* BLOG PAGE UPDATE v1.2 */
 
-.blog-post {
-    float:left;
-}
 
 #slideFrame {
     float:left;
@@ -1631,8 +1627,8 @@ display:none;
     font-family:'OfficinaSerifITCW01-Boo 734540';
     font-weight: bold;
     text-transform: uppercase;
-font-style:normal;
-margin-bottom:15px;
+    font-style:normal;
+    margin-bottom:15px;
 }
 
 .middle-content h1 {
@@ -1645,8 +1641,8 @@ margin-bottom:15px;
     font-family:'OfficinaSerifITCW01-Boo 734540';
     font-weight: bold;
     text-transform: uppercase;
-font-style:normal;
-margin-bottom:15px;
+    font-style:normal;
+    margin-bottom:15px;
 }
 
 .image-post {
@@ -1662,21 +1658,21 @@ margin-bottom:15px;
 }
 
 .pagination {
-float:left;
-width:100%;
+    float:left;
+    width:100%;
 }
 
 .middle-content p:first-of-type {
-margin-top:20px;
+    margin-top:20px;
 }
 
 .middle-content p {
 	line-height:32px;
     color: #3d4538;
     font-family: Georgia;
-float:left;
-clear:both;
-margin:0px;
+    float:left;
+    clear:both;
+    margin:0px;
 }
 
 #u_0_0 {
@@ -1772,6 +1768,7 @@ margin:0px;
     color: #f17a1c;
     font-style: italic;
     border: none;
+    font-size:13px;
 }
 
 #commentform textarea {
@@ -1786,6 +1783,7 @@ margin:0px;
     font-family: Georgia;
     font-style: italic;
     border: none;
+        font-size:13px;
 }
 
 #commentform input[type=submit] {
@@ -1894,7 +1892,6 @@ margin:0px;
 }
 .posted-comments {
     float:left;
-    display:none;
 }
 .posted-comments ul {
     list-style:none;
@@ -1957,61 +1954,64 @@ margin:0px;
 }
 
 .buy-now-button-store {
-float:left;
-margin-top:-15px;
+    float:left;
+    margin-top:-15px;
 }
 
 .supplementfacts {
-float:left;
-margin-top:195px;
-margin-left:-7px;
+    float:left;
+    margin-top:195px;
+    margin-left:-7px;
 }
 
 #sharepopup {
     width:600px;
-	height:100px;
+    height:100px;
 }
 
 #sharepopup h1 {
-   font-family:'OfficinaSerifITCW01-Boo 734540';
-    font-size:22px;
-    color:#f38732;
-text-transform:uppercase;
-letter-spacing:1px;
-margin-top:20px;
-float:left;
-width:100%;
+ font-family:'OfficinaSerifITCW01-Boo 734540';
+ font-size:22px;
+ color:#f38732;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ margin-top:20px;
+ float:left;
+ width:100%;
 }
 
 .older {
-float:left;
+    float:left;
 }
 
 .newer {
-float:right;
+    float:right;
 }
 
 .page-slider {
-width:600px;
-height:256px;
-float:left;
-margin-top:65px;
-position:relative;
-overflow:hidden;
+    width:600px;
+    height:256px;
+    float:left;
+    margin-top:65px;
+    position:relative;
+    overflow:hidden;
 }
 
 .page-slider ul {
-margin:0px;
-padding:0px;
-list-style:none;
+    margin:0px;
+    padding:0px;
+    list-style:none;
 }
 
 .page-slider ul li {
-position: absolute;
+    position: absolute;
 }
 .goback {
-position: absolute;
-left: 50%;
-margin-left: -107px;
-z-index: 100000;
+    position: absolute;
+    left: 50%;
+    margin-left: -107px;
+    z-index: 100000;
 }
+
+/* New updates */
+ 

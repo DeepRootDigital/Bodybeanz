@@ -1,16 +1,4 @@
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<?php if (get_post_meta( get_the_ID(), 'header', true ) == 'value1') { ?>
-<?php get_template_part( 'header', 'subpage' ); ?>
-<?php } ?>
-<?php if (get_post_meta( get_the_ID(), 'header', true ) == 'value2') { ?>
-<?php get_template_part( 'header', 'prelaunch' ); ?>
-<?php } ?>
-<?php if (get_post_meta( get_the_ID(), 'header', true ) == 'value3') { ?>
 <?php get_header(); ?>
-<?php } ?>
-<?php if (get_post_meta( get_the_ID(), 'header', true ) == '') { ?>
-<?php get_template_part( 'header', 'subpage' ); ?>
-<?php } ?>
 <div id="panel">
     <div class="container">
         <div id="pgcontent">
@@ -42,6 +30,7 @@
 	</div>
 <?php } ?>
             <div id="headline">
+              <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <h1><?php the_title(); ?></h1>
                 <div id="ribbonbanner"></div>
             </div>

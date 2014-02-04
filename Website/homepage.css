@@ -1,16 +1,3 @@
-/*
-Theme Name: BodyBeanz
-Theme URI: http://businessonmarketst.com
-Description: Design for BodyBeanz - Business on Market St.
-Author: Alvaro Flores, Nicholas Koskowski, Aldo Jacobo
-Version: .99
-Tags: awesome, beans, vitamins, whole food
-*/
-
-
-/* =Reset default browser CSS. 
--------------------------------------------------------------- */
-
 /*     
 font-family:'OfficinaSerifITCW01-Boo 734540';
 font-family:'OfficinaSerifITCW01-Bol 734534'; 
@@ -27,8 +14,8 @@ p {
 }
 
 a {
-color:#e76e0f;
-text-decoration:none;
+    color:#e76e0f;
+    text-decoration:none;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -138,7 +125,8 @@ hr {
 .slides div img {
     margin-top: 100px;
 }
-.content {
+
+.home-content {
     margin-top: 30px;
 }
 
@@ -316,7 +304,7 @@ hr {
 .half ul li {
     padding-top:10px;
     padding-bottom: 10px;
-margin-left:20px;
+    margin-left:20px;
 
 }
 
@@ -386,7 +374,7 @@ margin-left:20px;
     width:100%;
     background-image:url('images/footer.png');
     background-repeat:repeat;    
-    float:left;
+    padding-top:10px;
     position:relative;
     z-index:200;
 }
@@ -475,7 +463,7 @@ margin-left:20px;
     list-style-type: none;
 }
 .nav ul li b {
-font-weight:normal;
+    font-weight:normal;
 }
 .nav ul li a {
     background-image: url("images/nav-back.png");
@@ -520,4 +508,82 @@ font-weight:normal;
     font-family:georgia;
     font-size:11px;
     margin-top:11px;
+}
+
+/* Blog Page */
+
+.blog-items {
+    width: 598px;
+    display:inline-block;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 280px;
+    overflow:hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.featured-image img {
+    width: 100%;
+
+}
+
+.blog-post h2 {
+    color: #79bf41;
+    font-size: 36px;
+    font-family:'OfficinaSerifITCW01-Boo 734540';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style:normal;
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    padding-top:100px;
+    width: 280px;
+    display:inline-block;
+    float:right;
+}
+
+.sidebar h3 {
+    color: #79bf41;
+    font-size: 32px;
+    font-family:'OfficinaSerifITCW01-Boo 734540';
+    text-transform: uppercase;
+    font-style:normal;
+    letter-spacing: 1px;
+}
+
+.sidebar ul, .sidebar li {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+/* Comments */
+
+.comment-ui {
+    font-size: 12px;
+    font-family: georgia;
+}
+
+.comment-ui img {
+    vertical-align: middle;
+}
+
+.comment-count {
+    float:left;
+    text-align: left;
+}
+
+.reply-link {
+    float:right;
+    text-align: right;
+    cursor:pointer;
 }

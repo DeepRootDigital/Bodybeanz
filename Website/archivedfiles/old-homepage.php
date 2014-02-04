@@ -1,3 +1,6 @@
+<!--
+  /* Archiving Old Homepage */
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -169,4 +172,4 @@ Boomer <span>Beanz</span>
         </div>
       </div>
     </div>
-    <?php get_footer(); ?>
+    <?php get_footer(); ?> -->

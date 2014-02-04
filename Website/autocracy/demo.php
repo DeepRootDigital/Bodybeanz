@@ -61,16 +61,6 @@ $meta_boxes[] = array(
             'type' => 'plupload_image',
             'max_file_uploads' => 8,
             ),
-        array(
-            'name' => 'Header Options',
-            'id' => 'header',
-            'type' => 'select',
-            'options' => array(
-                'value1' => 'Subpage Ribbon',
-                'value2' => 'Reduced Ribbon',
-                'value3' => 'Homepage Ribbon',
-                ),
-            ),
         ),
     );
 
@@ -89,13 +79,6 @@ $meta_boxes[] = array(
     // List of meta fields
     'fields' => array(
         // IMAGE UPLOAD
-        array(
-            'name' => 'Blog Image',
-            'desc' => '',
-            'id' => "blogimage",
-            'type' => 'plupload_image',
-            'max_file_uploads' => 1,
-            ),
         array(
             'name' => 'Grid Images',
             'desc' => '',
@@ -167,23 +150,13 @@ $meta_boxes[] = array(
     'fields' => array(
         // IMAGE UPLOAD
         array(
-            'name' => 'Header Options',
-            'id' => 'header',
-            'type' => 'select',
-            'options' => array(
-                'value1' => 'Subpage Ribbon',
-                'value2' => 'Reduced Ribbon',
-                'value3' => 'Homepage Ribbon',
-                ),
-            ),
-        array(
             'name' => 'Product Image',
             'desc' => '',
             'id' => "productimage",
             'type' => 'plupload_image',
             'max_file_uploads' => 1,
             ),
-array(
+        array(
             'name' => 'Supplement Facts Image',
             'desc' => '',
             'id' => "supplementfacts",
@@ -235,14 +208,14 @@ array(
             'type' => 'text',
             ),
         array(
-           'name' => 'Bean 1 Content',
-           'desc' => "The content of for bean1 area",
-           'id' => "beancontent1",
-           'type' => 'wysiwyg',
-           'std' => "",
-           'cols' => '40',
-           'rows' => '8',
-           ),
+         'name' => 'Bean 1 Content',
+         'desc' => "The content of for bean1 area",
+         'id' => "beancontent1",
+         'type' => 'wysiwyg',
+         'std' => "",
+         'cols' => '40',
+         'rows' => '8',
+         ),
         array(
             'name' => 'Bean 2 Title',
             'id' => 'bean2title',
@@ -254,14 +227,14 @@ array(
             'type' => 'text',
             ),
         array(
-           'name' => 'Bean 2 Content',
-           'desc' => "The content of for bean2 area",
-           'id' => "beancontent2",
-           'type' => 'wysiwyg',
-           'std' => "",
-           'cols' => '40',
-           'rows' => '8',
-           ),
+         'name' => 'Bean 2 Content',
+         'desc' => "The content of for bean2 area",
+         'id' => "beancontent2",
+         'type' => 'wysiwyg',
+         'std' => "",
+         'cols' => '40',
+         'rows' => '8',
+         ),
         array(
             'name' => 'Bean 3 Title',
             'id' => 'bean3title',
@@ -273,14 +246,14 @@ array(
             'type' => 'text',
             ),
         array(
-           'name' => 'Bean 3 Content',
-           'desc' => "The content of for bean3 area",
-           'id' => "beancontent3",
-           'type' => 'wysiwyg',
-           'std' => "",
-           'cols' => '40',
-           'rows' => '8',
-           ),
+         'name' => 'Bean 3 Content',
+         'desc' => "The content of for bean3 area",
+         'id' => "beancontent3",
+         'type' => 'wysiwyg',
+         'std' => "",
+         'cols' => '40',
+         'rows' => '8',
+         ),
         array(
             'name' => 'Bean 4 Title',
             'id' => 'bean4title',
@@ -292,14 +265,14 @@ array(
             'type' => 'text',
             ),
         array(
-           'name' => 'Bean 4 Content',
-           'desc' => "The content of for bean4 area",
-           'id' => "beancontent4",
-           'type' => 'wysiwyg',
-           'std' => "",
-           'cols' => '40',
-           'rows' => '8',
-           ),
+         'name' => 'Bean 4 Content',
+         'desc' => "The content of for bean4 area",
+         'id' => "beancontent4",
+         'type' => 'wysiwyg',
+         'std' => "",
+         'cols' => '40',
+         'rows' => '8',
+         ),
         
         ),
 );

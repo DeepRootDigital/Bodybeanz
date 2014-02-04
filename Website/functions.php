@@ -10,6 +10,7 @@ define( 'RWMB_DIR', trailingslashit( get_template_directory(). '/autocracy/API/'
 require_once RWMB_DIR . '/meta-box.php';
 include get_template_directory() . '/autocracy/demo.php';
 add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
 function create_post_type() {
     register_post_type('supplement-facts', array(
         'labels' => array(
@@ -72,4 +73,12 @@ function my_cpt_post_types( $post_types ) {
     return $post_types;
 }
 add_filter( 'cpt_post_types', 'my_cpt_post_types' );
+
+register_sidebar(array(
+  'name' => __( 'Right Hand Sidebar' ),
+  'id' => 'right-sidebar',
+  'description' => __( 'Widgets in this area will be shown on the right-hand side.' ),
+  'before_title' => '<h3>',
+  'after_title' => '</h3><img src="'.get_template_directory_uri().'/images/widget-ribbon.png">'
+));
 ?>
