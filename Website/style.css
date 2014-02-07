@@ -49,7 +49,6 @@ p {
 
 a {
     color:#f17a1c;
-    font-style:italic;
     text-decoration:none;
     cursor:pointer;
 }
@@ -214,6 +213,8 @@ a {
 .alignleft {
     padding-right:10px;
     float:left;
+    clear:left;
+    padding-bottom: 10px;
 }
 
 #socialmedia {
@@ -854,6 +855,7 @@ a {
     float:left;
     width:100%;
     border-bottom: 1px dotted #404a3c;
+    padding-bottom: 5px;
 }
 
 .comment-edit-link {
@@ -1299,7 +1301,7 @@ a {
     display:block;
 }
 #lwt:hover + #wheelcontent1 {
-   display:block;
+ display:block;
 }
 
 .unselected {
@@ -1346,7 +1348,7 @@ a {
     margin-top:10px;
 }
 .whldsply img {
- margin-left:58px;
+   margin-left:58px;
 }
 
 #buybutton {
@@ -1355,7 +1357,7 @@ a {
     background-repeat:no-repeat;
     width:71px;
     height:161px;
-    top:140px;
+    top:320px;
     position:absolute;
 }
 #footainer {
@@ -1473,9 +1475,10 @@ a {
 }
 
 #priceribbon {
-    width:585px;
+    width: 100%;
     height:68px;
     background-image:url('images/price-ribbon.png');
+    background-position-x: 50%;
     background-repeat:no-repeat;
     float:left;
     margin-left:-20px;
@@ -1492,6 +1495,7 @@ a {
 }
 
 .pricing a {
+    color:#fff;
     text-decoration:none;
     font-style:normal;
 }
@@ -1507,7 +1511,6 @@ a {
     margin-top:-43px;
 }
 .beanz {
-    float:left;
     width:565px;
     margin-top:6px;
 }
@@ -1783,7 +1786,7 @@ a {
     font-family: Georgia;
     font-style: italic;
     border: none;
-        font-size:13px;
+    font-size:13px;
 }
 
 #commentform input[type=submit] {
@@ -1970,14 +1973,14 @@ a {
 }
 
 #sharepopup h1 {
- font-family:'OfficinaSerifITCW01-Boo 734540';
- font-size:22px;
- color:#f38732;
- text-transform:uppercase;
- letter-spacing:1px;
- margin-top:20px;
- float:left;
- width:100%;
+   font-family:'OfficinaSerifITCW01-Boo 734540';
+   font-size:22px;
+   color:#f38732;
+   text-transform:uppercase;
+   letter-spacing:1px;
+   margin-top:20px;
+   float:left;
+   width:100%;
 }
 
 .older {
@@ -1989,12 +1992,11 @@ a {
 }
 
 .page-slider {
-    width:600px;
     height:256px;
-    float:left;
-    margin-top:65px;
+    float:right;
     position:relative;
     overflow:hidden;
+    padding:10px;
 }
 
 .page-slider ul {
@@ -2014,4 +2016,3 @@ a {
 }
 
 /* New updates */
- 

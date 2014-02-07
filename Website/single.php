@@ -15,9 +15,7 @@
 			<?php comments_template(); ?>
 		</div>
 	<?php endwhile; endif; ?>
-</div>
-<div class="sidebar">
-	<?php dynamic_sidebar( 'right-sidebar' ); ?>
-</div>
+    </div>
+    <?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

@@ -12,7 +12,7 @@
 <body>
  <div class="header">
    <div class="container">
-    <a href="#"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" /></a>
+    <a href="<?php echo get_site_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" /></a>
     <div class="nav">
       <?php wp_nav_menu( array('menu' => 'Home Menu' )); ?>
     </div>

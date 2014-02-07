@@ -1,8 +1,7 @@
   <?php get_header(); ?>
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-  <div id="panel">
     <div class="container">
-        <div id="pgcontent">
+        <div class="page-content">
             <div id="headline" style="margin-top:20px;">
                 <div id="breadcrumbs"><a href="http://bodybeanz.com/?page_id=61">All Products</a> <span style="color:#f17a1c;">/</span> <?php the_title(); ?></div>
                 <h1><?php the_title(); ?></h1>

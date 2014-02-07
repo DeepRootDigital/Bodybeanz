@@ -52,4 +52,22 @@ $(document).ready(function(){
 	$('.reply-link').click(function() {
 		$('#commentform').toggle(); 
 	});
+
+	/* FAQ */
+
+	$('.question').click(function(event) {
+		$(this).find('.answer').toggle();
+	});
+
+	$('.plusbutton').click(function() {
+		$(this).parent().find('.bean-product-content').toggle(800);
+	});
+	
+	$("a#single_image").fancybox({
+		'scrolling' : 'yes',
+		'width' : '850',
+		'autoscale' : 'false',
+		'autoDimensions'  : 'false',
+	});
+
 });
